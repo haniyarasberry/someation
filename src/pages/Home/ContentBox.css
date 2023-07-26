@@ -1,0 +1,39 @@
+.container {
+    width: 95%;
+    margin: auto;
+    margin-top: 16px; 
+    padding: 12px; 
+    border-radius: 8px;
+    color: rgb(29, 5, 5);
+    background-color: navy;
+  }
+
+ 
+.title {
+
+    color: #FFF;
+    text-align: center;
+    font-family: Be Vietnam Pro;
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 148px;
+  }
+  .title1 {
+
+
+    background: linear-gradient(90deg, #A968E7 0%, #FD479A 100%);
+    background-clip: text;
+    text-align: center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Be Vietnam Pro;
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 148px;
+  
+  }
+
+  
+  
