@@ -1,39 +1,129 @@
 .container {
-    width: 95%;
+    /* width: 95%;
     margin: auto;
     margin-top: 16px; 
     padding: 12px; 
     border-radius: 8px;
     color: rgb(29, 5, 5);
     background-color: navy;
+    */
+    width: 1400px;
+    height: 1238px;
+    flex-shrink: 0;
+    padding: 50px;
+
   }
 
  
 .title {
-
     color: #FFF;
     text-align: center;
     font-family: Be Vietnam Pro;
-    font-size: 120px;
+    font-size: 100px;
     font-style: normal;
     font-weight: 800;
-    line-height: 148px;
+    line-height: 80px;
   }
+
+
   .title1 {
-
-
     background: linear-gradient(90deg, #A968E7 0%, #FD479A 100%);
     background-clip: text;
     text-align: center;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: Be Vietnam Pro;
-    font-size: 120px;
+    font-size: 100px;
     font-style: normal;
     font-weight: 800;
-    line-height: 148px;
-  
+    line-height: 80px;
   }
 
   
+  .homeimg {
+    display: flex;
+    width: 1280px;
+ 
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 32px;
+    max-width: calc(100% - 30px);
+    margin: auto;
+  }
+
+  .Rectangle5 {
+    width: 34.621px;
+    height: 34.621px;
+    transform: rotate(-13.838deg);
+    flex-shrink: 0;
+    fill: #FFF;
+    opacity: 0.1599999964237213;
+
+  }
+
+  .Star3 {
+    fill: #FFC14A;
+    width: 128.513px;
+    height: 128.513px;
+    transform: rotate(23.851deg);
+    flex-shrink: 0;
+
+  }
+
+  .img2 {
+
+    margin-top: -200px;
+    margin-left: 60%;
+    width: 35%;
+    height: auto;
+    max-width: calc(100% - 30px);
+
+
+  }
   
+  .title3 {
+    width: 100%;
+    color: #FFF;
+    font-family: Wooper;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    display: flex;
+    align-items: left;
+    text-align: center;
+    line-height: 20px;
+    margin-left: 60px;
+  }
+
+.titlecontain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+
+}
+
+.buttonholder {
+    margin-left: 100px;
+    margin-top: 200px;
+    display: inline-flex;
+    padding: 1px 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #FCEE62 0%, #EA3CF1 100%);
+    left: 50px;
+    
+
+}
+.buttonlabel {
+    color: #000;
+    font-family: Be Vietnam Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 15px; /* 120% */
+}
