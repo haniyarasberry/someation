@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from "./Navbar"; 
 import ContentBox from './ContentBox';
+import Footer from './Footer.js'
 
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
             <Navbar />
       
              <ContentBox />
+             <Footer />
             <div className = "main-content">
               
            
