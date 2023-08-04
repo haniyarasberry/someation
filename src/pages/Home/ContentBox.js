@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import AutoAwesomeIcon from '@mui/icons-material/AutoAwesome';
 import GradeTwoToneIcon from '@mui/icons-material/GradeTwoTone';
 import { Paper, Box } from '@mui/material';
-import Carousel from "react-elastic-carousel";
+
 import IconButton from '@mui/material/IconButton';
 import { styled } from '@mui/system';
 import homeim from './somestagehome.png';
@@ -74,7 +74,11 @@ const ContentBox = () => {
   const handleIconButtonClick4 = () => {
     setShowMessage3(true);
   };
-  
+  const [showMessage4, setShowMessage4] = useState(false);
+
+  const handleIconButtonClick5 = () => {
+    setShowMessage4(true);
+  };
   
   
   
@@ -161,6 +165,8 @@ const ContentBox = () => {
       
       <img src={Vector9} alt="leftvector" className="leftvector" style={{
       }} />
+
+
     <div className="container3"> 
     <img src={Frame1} alt="Frame1" className="Frame1" style={{
       }} />
@@ -181,6 +187,8 @@ const ContentBox = () => {
       <div className="container4">
       <img src={moneyicon2} alt="moneyicon2" className="moneyicon2" style={{
       }} />
+      
+      
       <h1 className="stageplan4">Odio tempor orci dapibus</h1>
       </div>
 
@@ -199,14 +207,14 @@ const ContentBox = () => {
     <div className="container3"> 
     <img src={Frame2} alt="Frame2" className="Frame2" style={{
       }} />
-      <h1 className="stageplan3">Montes nascetur ridiculus</h1>
+      <h1 className="stageplan5">Montes nascetur ridiculus</h1>
     </div>
-    <div className="stage3con">
-      <IconButton variant="contained" onClick={handleIconButtonClick3} className="addbutton3">
+    <div className="stage5con">
+      <IconButton variant="contained" onClick={handleIconButtonClick5} className="addbutton3">
         <AddOutlinedIcon />
       </IconButton>
       {/* Text to display when the button is clicked */}
-      {showMessage2 && (
+      {showMessage4 && (
         <p className="thirdpart">Montes nascetur ridiculus mus mauris vitae ultricies leo integer malesuada. Et tortor at risus viverra adipiscing. Eleifend quam adipiscing vitae proin sagittis nisl rhoncus. Blandit cursus risus at ultrices mi tempus imperdiet.</p>
       )}
       </div>
@@ -220,7 +228,7 @@ const ContentBox = () => {
       <h1 className="readmore">Read More About 
       <br />Our Journey</h1>
 
-
+ {/*
       <div className="carousel-container">
       <Carousel itemsToShow={2} pagination={false}>
         <div className="carousel-item">
@@ -241,10 +249,11 @@ const ContentBox = () => {
           <h1 className="carousel-text">New affiliate program!</h1>
           <h2 className="carousel-caption">Some · Stage helps creators to avoid the social platform fees and get their stream revenues...</h2>
         </div>
-        {/* Add more carousel items if needed */}
+        
       </Carousel>
     </div>
-    
+    */}
+
     <div className="lastsection">
     <h1 className="mission">Join The Mission</h1>
     <h2 className="mission-sub">We would love to get your feedback through a 2 min Typeform, and collect some thoughts about how we can improve our product.</h2>
